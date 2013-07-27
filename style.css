@@ -1,10 +1,14 @@
 /*
 Theme Name:   Capsule Child
 Theme URI:    http://crowdfavorite.com/capsule/
-Description:  A conversational snippet library
+Description:  A conversational snippet library - child theme of Capsule
 Author:       Mimi Flyn
 Author URI:   http://mimiflynn.com/
 Version:      0.1.0
+Template:     capsule
 License:      GPL v2
 License URI:  http://opensource.org/licenses/GPL-2.0
 */
+
+@import url("../capsule/ui/assets/css/style.css");
+

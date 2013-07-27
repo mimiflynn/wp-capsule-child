@@ -18,4 +18,3 @@ An attempt to make this site better by creating a child theme of the current the
 - email alerts
   - http://www.wprecipes.com/how-to-automatically-notify-your-members-on-new-posts
 
-#wordpress @cheerstothelife
