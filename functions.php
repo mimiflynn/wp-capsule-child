@@ -5,16 +5,18 @@ function capsule_child_styles(){
 }
 add_action( 'wp_enqueue_scripts', 'capsule_child_styles' );
 
+
+/* TODO: refactor to automatically set site name and address 
+
 function capsule_child_email_members($post_ID)  {
     global $wpdb;
     $usersarray = $wpdb->get_results("SELECT user_email FROM $wpdb->users;");    
     $users = implode(",", $usersarray);
-    mail($users, "New WordPress recipe online!", 'A new recipe have been published on http://www.wprecipes.com');
+    mail($users, "New post on Cheers!", 'There is a new post on cheerstothelife.com');
     return $post_ID;
 }
-
 add_action('publish_post', 'capsule_child_email_members');
-
+ */
 
 if ( ! function_exists( 'capsule_child_comment' ) ) :
 /**
