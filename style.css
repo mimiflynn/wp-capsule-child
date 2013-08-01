@@ -2,7 +2,7 @@
 Theme Name:   Capsule Child
 Theme URI:    http://crowdfavorite.com/capsule/
 Description:  A conversational snippet library - child theme of Capsule
-Author:       Mimi Flyn
+Author:       Mimi Flynn
 Author URI:   http://mimiflynn.com/
 Version:      0.1.0
 Template:     capsule
@@ -12,3 +12,31 @@ License URI:  http://opensource.org/licenses/GPL-2.0
 
 @import url("../capsule/ui/assets/css/style.css");
 
+/* Comment Styles */
+
+#comments {
+  margin-left: 55px;
+}
+#comments footer {
+  height: auto;
+  margin-top: auto;
+}
+#comments footer img {
+  margin-right: 10px;
+}
+#comments ol,
+#comments ol li {
+  list-style: none;
+  padding-left: 0;
+}
+#comments ol li .children {
+  padding: 0;
+}
+#comments ol li .children li {
+  padding: 20px;
+  background: #CCC;
+}
+#comments ol li.bypostauthor,
+#comments ol li .children li {
+  background: #FFF;
+}

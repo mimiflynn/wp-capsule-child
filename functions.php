@@ -1,5 +1,10 @@
 <?php
 
+function capsule_child_styles(){
+  wp_enqueue_style( 'capsule-child-style', get_stylesheet_uri() );
+}
+add_action( 'wp_enqueue_scripts', 'capsule_child_styles' );
+
 function capsule_child_email_members($post_ID)  {
     global $wpdb;
     $usersarray = $wpdb->get_results("SELECT user_email FROM $wpdb->users;");    
